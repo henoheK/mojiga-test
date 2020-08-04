@@ -144,6 +144,7 @@ JikkouButton.onclick = () => {
 }
 function pushKaoBack(context) {
   var image = new Image();
+  img.crossOrigin = 'Anonymous';
   image.src = "https://raw.githubusercontent.com/henohenon/mojiga-test/master/%E6%AC%A1%E3%81%9F%E3%82%99.png";
   return image;
 }
